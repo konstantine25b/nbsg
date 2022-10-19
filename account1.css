@@ -1,0 +1,193 @@
+.main{ display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center;
+    
+ 
+}
+body{
+    margin: 0;
+    background-image: url("Render.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+h1{
+    color: rgb(41, 41, 224); font-size: 50px; text-align: left; margin-bottom: 10px; font-weight: 900;
+}
+h2{
+    font-size: 30px; text-align: left; font-weight: 100; margin-top: 0px; min-height: auto;
+    width: 500px;
+}
+.item{
+    width: 400px; margin-top: 170px;  margin-left: 40px;
+    background-color: rgba(61, 61, 74,0.7); height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.item:hover{
+    background-color: rgba(61, 61, 74,1);
+}
+.item2{ margin-top: 120px; width: 396px; height: 350px; background-color: white; text-align: center; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 6px; background-color: rgba(61, 61, 74,0.7)
+
+}
+.k{
+    width: 80%; padding: 15px; margin-top: 20px; border-radius: 6px; font-size: 17px; border-color: #f8faf8;
+    border: 1px solid#dddfe2 ; outline: none;
+}
+button{
+    width: 90%; padding: 10px; margin-top: 20px; margin-bottom: 20px; border-radius: 6px; font-size: 17px; background-color: white; 
+    border: none; transition: 0.2s;
+}
+body{
+    background-color: #f0f2f5;
+}
+.b2{
+    margin-bottom: 20px; width: 50%; background-color: white; border-color: rgba(61, 61, 74,1); border-radius: 6px; font-size: 17px;
+     padding: 15px 10px; text-decoration: none; border: none; 
+     transition: 0.2s;
+}
+button a{ text-decoration: none; color: rgb(247, 247, 248); 
+
+}
+a{text-decoration: none; display: inline-block; color: black !important; font-weight: 400;
+
+}
+.aks{
+    width: 90%; height: 1px; background-color: rgba(61, 61, 74,1); margin-top: 10px; margin-left: 5%;
+}
+.bolo{
+    margin-left: 65%; text-decoration: none; color: black; margin-top: 30px; font-size: 16px; display: inline-block; font-weight: 900;
+
+}
+
+.fb{
+    text-align: left; margin-bottom: 0px; display: inline-block;  height: 106px;
+}
+.b1{
+    font-size: 20px ; font-weight: bold; display: inline-block; width: 100%;
+}
+.bolo:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.okk:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(61, 61, 74,1) ;
+    cursor: pointer;
+}
+.b2:hover{
+    background-color: rgba(61, 61, 74,1);
+}
+
+.k:focus-visible{
+    border-color: rgba(61, 61, 74,1);
+}
+.wasa{
+    display: none;
+}
+h5{
+    position: absolute;
+    visibility: hidden;
+    color: #4b4f56; font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400; margin-left: 10px; margin-right: 10px; 
+
+}
+@media screen and (max-width:950px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        display: block;
+        text-align: center;
+        margin: 0%;
+        
+    }
+    h2{
+        display: none;
+    }
+    
+    .fb{
+        margin: 0%; height: 40px;
+    }
+    .item2{
+        margin: 0%;
+        text-decoration: none;
+        background-color: white;
+        box-shadow: none;
+        width: 450px;
+        height: 300px;
+        box-sizing: border-box;
+
+    }
+    body{
+        background-color: white;
+    }
+    .k{
+        width: 450px;
+        margin-top: 7px;
+        border: 1px solid #f5f6f7 ;
+        background-color:#f5f6f7 ;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+    button{
+        width: 450px !important; 
+        margin-top: 7px;
+        margin-bottom: 0px;
+        font-size: 15px; border-radius: 3px;
+       
+    }
+    .b2{
+        width: 180px !important; font-size: 15px; 
+        margin-top: 5px; padding: 10px 10px 10px 10px;
+
+    }
+    .okk{
+        margin-top: 8px; display: block;
+    }
+    .bolo {
+        opacity: 0;
+    }
+    span{
+        visibility: hidden;
+    }
+    .b1{
+        font-size: 15px;
+    }
+    h5{
+        position: relative;
+        visibility: visible;
+        display: inline;
+        margin-top: 10px;
+        
+    }
+    .aks{
+        width: 200px; margin-top: 20px;  display: inline-block; margin-left: 0%;
+    }
+    .aks1{
+        width: 200px; margin-top: 20px;  display: inline-block;
+        height: 1px; background-color: rgba(61, 61, 74,1); 
+    }
+    .l{
+        display: flex; justify-content: space-between; 
+    }
+    
+
+
+
+
+
+}
